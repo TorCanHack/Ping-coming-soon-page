@@ -8,7 +8,7 @@ document.getElementById("btn").addEventListener('click', function(event) {
     emailError.textContent = "";
 
     if (email === ""){
-        emailError.textContent = "Email cannot be empty";
+        emailError.textContent = "Whoops! It looks like you forgot to add your email";
         emailError.style.color = "hsl(0, 100%, 67%)";
         document.querySelector(".email").style.border = "1px solid hsl(0, 100%, 67%)";
         event.preventDefault();
