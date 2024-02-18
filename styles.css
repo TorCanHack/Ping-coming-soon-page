@@ -1,0 +1,127 @@
+* {
+  font-family: "Libre Franklin";
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body button:hover {
+  cursor: pointer;
+}
+body button:active {
+  background-color: hsl(223, 100%, 88%);
+}
+body .fa-brands:hover {
+  cursor: pointer;
+}
+body main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: min(95%, 375px);
+  height: 750px;
+  border: 1px solid white;
+}
+body main h1 {
+  margin-top: 6rem;
+  font-size: 1.3rem;
+}
+body main .launchingText {
+  font-size: 1.4rem;
+}
+body main .bluedot {
+  color: hsl(223, 87%, 63%);
+}
+body main .greyText {
+  color: hsl(0, 0%, 59%);
+}
+body main .dbtext {
+  color: hsl(209, 33%, 12%);
+}
+body main input {
+  height: 2.5rem;
+  width: 17.563rem;
+  border-radius: 2rem 2rem;
+  border: 1px solid hsl(223, 100%, 88%);
+  margin-bottom: 7px;
+}
+body main button {
+  height: 2.5rem;
+  width: 17.563rem;
+  border-radius: 2rem 2rem;
+  color: white;
+  background-color: hsl(223, 87%, 63%);
+  border: none;
+  box-shadow: 0 0 1rem hsl(223, 100%, 88%);
+}
+body main .emailError {
+  font-size: 0.7rem;
+  margin-bottom: 1rem;
+}
+body main img {
+  width: inherit;
+  height: 192px;
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+body footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100px;
+  margin: 0 auto;
+}
+body footer .fa-brands {
+  margin: 1rem 1rem;
+  color: hsl(223, 87%, 63%);
+}
+body footer .copyRightText {
+  font-size: 0.6rem;
+  color: hsl(0, 0%, 59%);
+}
+
+@media screen and (min-width: 1000px) {
+  .container {
+    width: 1400px;
+    height: 900px;
+  }
+  h1 {
+    font-size: 2rem !important;
+    margin-top: 4.5rem !important;
+  }
+  .launchingText {
+    font-size: 3rem !important;
+    margin-top: 1.8rem;
+  }
+  .dbtext {
+    margin-top: -2rem;
+    font-size: 1.3rem;
+  }
+  .dashBoard {
+    width: 640px;
+    height: 383px;
+    margin-top: 2rem;
+  }
+  .email {
+    width: 421px;
+    height: 3.5rem;
+    position: relative;
+    top: 1rem;
+    right: 9rem;
+  }
+  .emailError {
+    position: relative;
+    top: 1rem;
+    right: 18rem;
+  }
+  #btn {
+    width: 200px;
+    height: 3.5rem;
+    position: relative;
+    left: 12rem;
+    bottom: 3.5rem;
+  }
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,167 @@
+$primaryBlue: hsl(223, 87%, 63%);
+$secBlue: hsl(223, 100%, 88%);
+$secLightRed: hsl(354, 100%, 66%);
+$neutralGray: hsl(0, 0%, 59%);
+$neutralDarkBlue: hsl(209, 33%, 12%);
+$mainFont: "Libre Franklin";
+
+
+* {
+    font-family: $mainFont;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    button:hover {
+        cursor: pointer;
+    }
+
+    button:active {
+        background-color: $secBlue;
+    }
+
+    .fa-brands:hover {
+        cursor: pointer;
+    }
+
+
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: min(95%, 375px);
+        height: 750px;
+        border: 1px solid white;
+
+        h1 {
+            margin-top: 6rem;
+            font-size: 1.3rem;
+        }
+
+        .launchingText {
+            font-size: 1.4rem;
+            
+        }
+
+        .bluedot {
+            color: $primaryBlue;
+        }
+        .greyText {
+            color: $neutralGray;
+        }
+
+        .dbtext {
+            color: $neutralDarkBlue;
+        }
+        input {
+            height: 2.50rem;
+            width: 17.563rem;
+            border-radius: 2rem 2rem;
+            border: 1px solid $secBlue;
+            margin-bottom: 7px;
+
+        }
+
+        button {
+            height: 2.50rem;
+            width: 17.563rem;
+            border-radius: 2rem 2rem;
+            color: white;
+            background-color: $primaryBlue;
+            border: none;
+            box-shadow: 0 0 1rem $secBlue;
+    
+        }
+
+        .emailError {
+            font-size: .7rem;
+            margin-bottom: 1rem;
+        }
+
+        img {
+            width: inherit;
+            height: 192px;
+            margin-top: 4rem;
+            margin-bottom: 5rem;
+        }
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 100px;
+        margin: 0 auto;
+
+        .fa-brands {
+
+            margin: 1rem 1rem;
+            color: $primaryBlue;
+        }
+
+        .copyRightText{
+            font-size: .6rem;
+            color: $neutralGray;
+        }
+    }
+}
+
+@media screen and (min-width: 1000px)  {
+
+    .container {
+        width: 1400px;
+        height: 900px;
+        
+    }
+
+    h1 {
+        font-size: 2rem !important;
+        margin-top: 4.5rem !important;
+    }
+
+    .launchingText{
+        font-size: 3rem !important;
+        margin-top: 1.8rem;
+    }
+
+    .dbtext{
+        margin-top: -2rem;
+        font-size: 1.3rem;
+    }
+
+    .dashBoard {
+        width: 640px;
+        height: 383px;
+        margin-top: 2rem;
+    }
+
+
+    .email {
+        width: 421px;
+        height: 3.5rem;
+        position: relative;
+        top: 1rem;
+        right: 9rem;
+        
+    }
+
+    .emailError {
+        position: relative;
+        top: 1rem;
+        right: 18rem;
+    }
+    #btn {
+        width: 200px;
+        height: 3.5rem;
+        position: relative;
+        left: 12rem;
+        bottom: 3.5rem;
+    
+        
+    }
+    
+}
