@@ -32,14 +32,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](https://github.com/TorCanHack/Ping-coming-soon-page/blob/main/Screenshot%202024-02-18%20at%2014-56-01%20Frontend%20Mentor%20Ping%20coming%20soon%20page.png)
 
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [solution URL](https://github.com/TorCanHack/Ping-coming-soon-page)
+- Live Site URL: [live site URL](https://torcanhack.github.io/Ping-coming-soon-page/)
 
 ## My process
 
